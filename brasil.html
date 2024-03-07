@@ -5,9 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Brasil</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
-    <h1>Olá mundo/h1>
+<body class="home">
+    <div id="container">
+        <div id="topo">
+            <h1 class="logo">Notícias Cidade</h1>
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="index.html">Home</a></li>
+                <li><a id="brasil" href="brasil.html">Brasil</a></li>
+                <li><a id="inter" href="inter.html">Internacional</a></li>
+                <li><a id="economia" href="Economia.html">Economia</a></li>
+                <li><a id="saude" href="saude.html">Saúde</a></li>
+                <li><a id="ciencia" href="ciencia.html">Ciência</a></li>
+                <li><a id="fotos" href="fotos.html">Fotos</a></li>
+
+            </ul>
+    </div>    
+    <section conteudo>
+        <div id="coluna-esquerda">
+            <h3>Entrevistas</h3>
+            <ul>
+                <li><a href="#">José Almeida</a></li>
+                <li><a href="#">Felipe Silva</a></li>
+                <li><a href="#">Renato Rodrigues</a></li>
+                <li><a href="#">Abelardo Silveira</a></li>
+                <li><a href="#">André Carlos</a></li>
+                <li><a href="#">Márcio Mello</a></li>
+                <li><a href="#">João Pedro</a></li>
+                <li><a href="#">Fernando Weiss</a></li>
+            </ul>
+            <h3>News</h3>
+            <label for="iemail">Email</label>
+            <input type="email" name="iemail" id="email" autocomplete="off"><br>
+            <input type="submit" value="Cadastrar">
+        </div> <!--término coluna esquerda-->
+        <div id="coluna-centro">
+            <h3>Última entrevista</h3>
+            <h4 class="destaque">Entrevista com Felipe Silva</h4>
+            <img id="doutor" src="imagens/doutor.jpg" alt="Foto de um médico">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <a id="espaco" href="#">Leia mais!</a>
+            <h3 id="alinhamento">Mundo</h3>
+            <div class="secao-conteudo">
+                <div class="segunda-secao">
+                <img  id="mundo" src="imagens/mundo.jpg" alt="foto de nova York">
+                    <div class="texto">
+                        <h4>Crise européia</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+
+                </div> <!--término div segunda-secao-->
+                <div class="segunda-secao">
+                    <img  id="mundo" src="imagens/mundo.jpg" alt="foto de nova York">
+                        <div>
+                            <h4>EUA tentam novo acordo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
     
+                    </div> <!--término div segunda-secao-->
+                    <div class="segunda-secao">
+                        <img  id="mundo" src="imagens/mundo.jpg" alt="foto de nova York">
+                            <div>
+                                <h4>Guerra na Síria</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+        
+                        </div> <!--término div segunda-secao-->
+           
+            </div> <!--término div secao-conteudo-->
+        </div><!--término coluna centro-->
+    </section>
 </body>
 </html>
