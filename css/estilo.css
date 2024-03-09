@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,6 +21,7 @@ div#topo {
     padding-top: 25px;
     background: url(../imagens/detalhe-topo.png)no-repeat;
     background-position: right top;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
@@ -111,16 +113,15 @@ section.conteudo ul li {
     list-style-type: none;
 }
 
-section.conteudo #coluna-esquerda a {
+section.conteudo #coluna-esquerda ul li a {
     font-size: 0.8em;
     text-decoration: none;
     color: #000000;
-    padding: 2px;
 }
 
-section.conteudo a:hover {
-    background-color: #d3d3d3;
-    border-radius: 2px;
+section.conteudo ul li a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px
 }
 
 section.conteudo input[type="email"] {

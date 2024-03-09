@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,6 +21,7 @@ div#topo {
     padding-top: 25px;
     background: url(../imagens/detalhe-topo.png)no-repeat;
     background-position: right top;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 
